@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><circle cx=%2250%22 cy=%2250%22 r=%2250%22 fill=%22%231a1a1a%22/><text y=%22.9em%22 font-size=%2290%22 x=%2210%22 fill=%22white%22>C</text></svg>">
+  <title>Color Guess</title>
+</head>
+<body>
+  <main>
+    <header>
+      <h1 id="title">Color Guess</h1>
+      <p id="rgb-color"></p>
+    </header>
+    
+    <section id="game-area">
+      <div class="balls-grid">
+        <div class="ball"></div>
+        <div class="ball"></div>
+        <div class="ball"></div>
+        <div class="ball"></div>
+        <div class="ball"></div>
+        <div class="ball"></div>
+      </div>
+      <p id="answer">Pick the right color</p>
+      <button id="reset-game">Change colors</button>
+    </section>
+
+    <section class="score-section">
+      <p id="score-paragraph">Score: <span id="score">0</span></p>
+    </section>
+  </main>
+  
+  <script src="script.js"></script>
+</body>
+</html>

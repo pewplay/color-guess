@@ -1,0 +1,8 @@
+{
+  "title": "Color Guess",
+  "description": "Indovina il colore corretto selezionando uno dei sei cerchi in base al valore RGB fornito.",
+  "keywords": ["color", "guess", "rgb", "puzzle", "casual"],
+  "category": "Puzzle",
+  "author": "Raphael Martins",
+  "playMode": "SinglePlayer"
+}
