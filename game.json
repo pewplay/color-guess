@@ -1,44 +1,57 @@
 {
   "$schema": "https://raw.githubusercontent.com/pewplay/pewplay/main/schema/game.schema.json",
   "title": "Color Guess",
-  "description": "Choose the circle that matches the displayed RGB color and test your eye for color.",
-  "about": "Color Guess is a browser game where you read the RGB value and pick the matching colored circle. Use Change colors to get a fresh set.\n\nStart a round in your browser and use the controls below to play.",
-  "howToPlay": "Read the RGB value and pick the matching colored circle. Use Change colors to get a fresh set.",
+  "description": "Read an RGB code and pick the matching color from six circles in this clean, free color guessing game you can play in your browser.",
+  "about": "Color Guess turns a web designer's everyday puzzle into a quick game. At the top of the screen you get a color written as an RGB value, like RGB(224, 142, 193), and below it six colored circles. Only one of them is the real match: your job is to picture the color from its red, green and blue numbers and tap the right circle.\n\nA correct pick earns 3 points, while a wrong one simply tells you to try again, so you can keep guessing until you find it. Press Change colors to get a brand new code and six fresh circles, and see how high you can push your score.\n\nThe calm, minimal design makes it a relaxing brain teaser, and it is a surprisingly effective way for students, designers and developers to build a real feel for how RGB values mix into colors.",
+  "howToPlay": "Look at the RGB value shown at the top and click or tap the circle you think has that exact color. A correct guess adds 3 points to your score; a wrong guess costs nothing, so try again. Press Change colors to start a new round with a new code.",
   "controls": [
     {
-      "input": "Click / tap a circle",
-      "action": "Guess the matching color"
+      "input": "Click / Tap",
+      "action": "Pick a color circle"
     },
     {
       "input": "Change colors",
-      "action": "Start a new color challenge"
+      "action": "Start a new round"
     }
   ],
   "tips": [
-    "Use click / tap a circle to guess the matching color.",
-    "Try another round to practice the timing and strategy."
+    "Find the biggest of the three numbers first: it tells you which channel, red, green or blue, dominates the color.",
+    "High values on all three channels mean a light, pastel color, while low values on all three mean a dark one.",
+    "When two channels are close and high, think of the mixes: red and green make yellow, green and blue make cyan, red and blue make magenta.",
+    "Wrong guesses are free, so rule out the obvious mismatches before choosing between similar circles."
   ],
   "faq": [
     {
-      "question": "How do I play Color Guess?",
-      "answer": "Read the RGB value and pick the matching colored circle. Use Change colors to get a fresh set."
+      "question": "Is Color Guess free to play?",
+      "answer": "Yes. It is completely free and runs in your browser with no download or sign-up."
     },
     {
-      "question": "Can I play Color Guess in a browser?",
-      "answer": "Yes. Open the game page and play without installing an app."
+      "question": "Can I play on a phone or tablet?",
+      "answer": "Yes. The layout fits small screens and you simply tap the circle you think is correct."
+    },
+    {
+      "question": "Do wrong guesses lower my score?",
+      "answer": "No. Wrong guesses have no penalty; you earn 3 points for each correct guess, and the score resets when you reload the page."
     }
   ],
   "category": "Puzzle",
   "tags": [
     "color",
-    "guess",
     "rgb",
-    "puzzle",
-    "casual"
+    "guessing game",
+    "brain teaser",
+    "web design"
   ],
+  "author": "Raphael Martins",
   "playMode": "SinglePlayer",
   "orientation": "any",
   "cover": "cover.png",
-  "draft": true,
-  "author": "Raphael Martins"
+  "screenshots": [
+    "screenshots/1.png",
+    "screenshots/2.png",
+    "screenshots/3.png"
+  ],
+  "exclude": [
+    ".gitattributes"
+  ]
 }
