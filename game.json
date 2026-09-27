@@ -1,8 +1,15 @@
 {
+  "$schema": "https://raw.githubusercontent.com/pewplay/pewplay/main/schema/game.schema.json",
   "title": "Color Guess",
-  "description": "Indovina il colore corretto selezionando uno dei sei cerchi in base al valore RGB fornito.",
-  "keywords": ["color", "guess", "rgb", "puzzle", "casual"],
+  "description": "Guess the right color: pick the circle that matches the RGB value shown. A free color puzzle game you can play in your browser.",
   "category": "Puzzle",
+  "tags": [
+    "color",
+    "guess",
+    "rgb",
+    "puzzle",
+    "casual"
+  ],
   "author": "Raphael Martins",
   "playMode": "SinglePlayer"
 }
