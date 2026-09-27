@@ -1,7 +1,33 @@
 {
   "$schema": "https://raw.githubusercontent.com/pewplay/pewplay/main/schema/game.schema.json",
   "title": "Color Guess",
-  "description": "Guess the right color: pick the circle that matches the RGB value shown. A free color puzzle game you can play in your browser.",
+  "description": "Choose the circle that matches the displayed RGB color and test your eye for color.",
+  "about": "Color Guess is a browser game where you read the RGB value and pick the matching colored circle. Use Change colors to get a fresh set.\n\nStart a round in your browser and use the controls below to play.",
+  "howToPlay": "Read the RGB value and pick the matching colored circle. Use Change colors to get a fresh set.",
+  "controls": [
+    {
+      "input": "Click / tap a circle",
+      "action": "Guess the matching color"
+    },
+    {
+      "input": "Change colors",
+      "action": "Start a new color challenge"
+    }
+  ],
+  "tips": [
+    "Use click / tap a circle to guess the matching color.",
+    "Try another round to practice the timing and strategy."
+  ],
+  "faq": [
+    {
+      "question": "How do I play Color Guess?",
+      "answer": "Read the RGB value and pick the matching colored circle. Use Change colors to get a fresh set."
+    },
+    {
+      "question": "Can I play Color Guess in a browser?",
+      "answer": "Yes. Open the game page and play without installing an app."
+    }
+  ],
   "category": "Puzzle",
   "tags": [
     "color",
@@ -10,6 +36,9 @@
     "puzzle",
     "casual"
   ],
-  "author": "Raphael Martins",
-  "playMode": "SinglePlayer"
+  "playMode": "SinglePlayer",
+  "orientation": "any",
+  "cover": "cover.png",
+  "draft": true,
+  "author": "Raphael Martins"
 }
